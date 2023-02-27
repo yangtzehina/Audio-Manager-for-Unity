@@ -3,7 +3,7 @@
 
 using UnityEngine;
 
-namespace Microsoft.MixedReality.Toolkit.Audio
+namespace Yangtze.Audio
 {
     /// <summary>
     /// The runtime event of an Audio Event that is currently playing

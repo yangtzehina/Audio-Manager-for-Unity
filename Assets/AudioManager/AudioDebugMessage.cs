@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace Microsoft.MixedReality.Toolkit.Audio
+namespace Yangtze.Audio
 {
     /// <summary>
     /// Prints a message to Unity's console log

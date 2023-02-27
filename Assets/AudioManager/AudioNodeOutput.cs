@@ -3,7 +3,7 @@
 
 using UnityEngine;
 
-namespace Microsoft.MixedReality.Toolkit.Audio
+namespace Yangtze.Audio
 {
     /// <summary>
     /// The output connector for an AudioNode

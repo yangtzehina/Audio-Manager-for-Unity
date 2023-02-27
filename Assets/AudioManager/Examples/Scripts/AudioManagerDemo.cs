@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using Microsoft.MixedReality.Toolkit.Audio;
+using Yangtze.Audio;
 using UnityEngine;
 
 public class AudioManagerDemo : MonoBehaviour

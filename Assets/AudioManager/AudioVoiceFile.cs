@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace Microsoft.MixedReality.Toolkit.Audio
+namespace Yangtze.Audio
 {
     /// <summary>
     /// An AudioNode containing a reference to a voice-over AudioClip

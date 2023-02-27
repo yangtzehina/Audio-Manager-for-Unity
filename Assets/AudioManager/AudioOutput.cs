@@ -7,7 +7,7 @@ using UnityEngine.Audio;
 using UnityEditor;
 #endif
 
-namespace Microsoft.MixedReality.Toolkit.Audio
+namespace Yangtze.Audio
 {
     /// <summary>
     /// The final node in an audio event

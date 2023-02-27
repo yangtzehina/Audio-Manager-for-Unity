@@ -6,7 +6,7 @@ using UnityEditor;
 
 #if UNITY_EDITOR
 
-namespace Microsoft.MixedReality.Toolkit.Audio
+namespace Yangtze.Audio
 {
     /// <summary>
     /// Override inspector for quick editing in the graph

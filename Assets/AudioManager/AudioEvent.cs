@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using UnityEditor;
 #endif
 
-namespace Microsoft.MixedReality.Toolkit.Audio
+namespace Yangtze.Audio
 {
     /// <summary>
     /// The logic, settings, and audio clips that define the playback of a sound

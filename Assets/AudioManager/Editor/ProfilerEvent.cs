@@ -4,7 +4,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace Microsoft.MixedReality.Toolkit.Audio
+namespace Yangtze.Audio
 {
     /// <summary>
     /// A minimal version of an ActiveEvent only containing what is needed for the profiler

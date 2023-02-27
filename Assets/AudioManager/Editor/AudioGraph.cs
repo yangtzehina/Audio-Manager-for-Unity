@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 #if UNITY_EDITOR
 
-namespace Microsoft.MixedReality.Toolkit.Audio
+namespace Yangtze.Audio
 {
     public class AudioGraph : EditorWindow
     {

@@ -5,7 +5,7 @@ using UnityEngine;
 using System.Globalization;
 using System.Collections.Generic;
 
-namespace Microsoft.MixedReality.Toolkit.Audio
+namespace Yangtze.Audio
 {
     /// <summary>
     /// The manager that handles the playback of AudioEvents
