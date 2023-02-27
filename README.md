@@ -1,4 +1,18 @@
 
+# 使用说明
+本项目是用来处理项目的音频加载，基于unity原生的Audio方案，
+模仿wwise的一种扩展，基于事件名字来播放音效
+
+## ROADMAP
+TODO:
+
+扩展成Package模式
+
+编辑器转为UIBuilder
+
+序列化优化
+
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
