@@ -1,3 +1,14 @@
 {
-	"name": "Yangtze.Audio.Runtime"
+    "name": "Yangtze.Audio.Runtime",
+    "rootNamespace": "Yangtze.Audio",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

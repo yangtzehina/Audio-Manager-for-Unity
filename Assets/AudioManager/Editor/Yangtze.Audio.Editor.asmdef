@@ -1,6 +1,6 @@
 {
     "name": "Yangtze.Audio.Editor",
-    "rootNamespace": "",
+    "rootNamespace": "Yangtze.Audio",
     "references": [
         "GUID:d6cfb52c12a633b489e971fd41275073"
     ],
