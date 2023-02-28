@@ -55,10 +55,20 @@ namespace Yangtze.Audio.Runtime
         [SerializeField]
         public bool HRTF = false;
         /// <summary>
+        /// 音效能够听到的最短路径
+        /// </summary>
+        [SerializeField]
+        public float MinDistance = 1;
+        /// <summary>
         /// The distance beyond which the sound can no longer be heard
         /// </summary>
         [SerializeField]
         public float MaxDistance = 10;
+        /// <summary>
+        /// 音效的曲线模式
+        /// </summary>
+        [SerializeField]
+        public AudioRolloffMode rolloffMode = AudioRolloffMode.Custom;
         /// <summary>
         /// The response curve for how loud the sound will be at different distances
         /// </summary>
@@ -102,8 +112,16 @@ namespace Yangtze.Audio.Runtime
             {
                 eventSource.spatialize = this.HRTF;
                 eventSource.maxDistance = this.MaxDistance;
-                eventSource.rolloffMode = AudioRolloffMode.Custom;
-                eventSource.SetCustomCurve(AudioSourceCurveType.CustomRolloff, this.attenuationCurve);
+                if (this.rolloffMode == AudioRolloffMode.Custom)
+                {
+                    eventSource.rolloffMode = AudioRolloffMode.Custom;
+                    eventSource.SetCustomCurve(AudioSourceCurveType.CustomRolloff, this.attenuationCurve);
+                }
+                else
+                {
+                    eventSource.rolloffMode = this.rolloffMode;
+                    eventSource.minDistance = this.MinDistance;
+                }
                 eventSource.dopplerLevel = this.dopplerLevel;
             }
 
@@ -138,8 +156,14 @@ namespace Yangtze.Audio.Runtime
 
             EditorGUI.BeginDisabledGroup(this.spatialBlend == 0);
             this.HRTF = EditorGUILayout.Toggle("HRTF", this.HRTF);
+            this.rolloffMode = (AudioRolloffMode)EditorGUILayout.EnumPopup("AudioRolloffMode", this.rolloffMode);
+            EditorGUI.BeginDisabledGroup(this.rolloffMode == AudioRolloffMode.Custom);
+            this.MinDistance = EditorGUILayout.FloatField("Min Distance", this.MinDistance);
+            EditorGUI.EndDisabledGroup();
             this.MaxDistance = EditorGUILayout.FloatField("Max Distance", this.MaxDistance);
+            EditorGUI.BeginDisabledGroup(this.rolloffMode != AudioRolloffMode.Custom);
             this.attenuationCurve = EditorGUILayout.CurveField("Attenuation", this.attenuationCurve);
+            EditorGUI.EndDisabledGroup();
             this.dopplerLevel = EditorGUILayout.FloatField("Doppler Level", this.dopplerLevel);
             EditorGUI.EndDisabledGroup();
         }

@@ -28,7 +28,9 @@ MonoBehaviour:
   loop: 0
   spatialBlend: 0
   HRTF: 0
+  MinDistance: 1
   MaxDistance: 10
+  rolloffMode: 2
   attenuationCurve:
     serializedVersion: 2
     m_Curve: []
@@ -348,7 +350,9 @@ MonoBehaviour:
   loop: 0
   spatialBlend: 0
   HRTF: 0
+  MinDistance: 1
   MaxDistance: 10
+  rolloffMode: 2
   attenuationCurve:
     serializedVersion: 2
     m_Curve: []
@@ -480,8 +484,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Window:
     serializedVersion: 2
-    x: 10318
-    y: 10230.5
+    x: 10319
+    y: 10266.615
     width: 20
     height: 20
   parentNode: {fileID: 114830916503306938}
@@ -632,7 +636,9 @@ MonoBehaviour:
   loop: 0
   spatialBlend: 0
   HRTF: 0
+  MinDistance: 1
   MaxDistance: 10
+  rolloffMode: 2
   attenuationCurve:
     serializedVersion: 2
     m_Curve: []
@@ -903,10 +909,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 10338
-    y: 10138
+    x: 10339
+    y: 10137
     width: 300
-    height: 185
+    height: 259.23
   input: {fileID: 114337039715407908}
   output: {fileID: 0}
   mixerGroup: {fileID: 0}
@@ -915,12 +921,32 @@ MonoBehaviour:
   MinPitch: 0.95
   MaxPitch: 1.05
   loop: 0
-  spatialBlend: 0
-  HRTF: 0
+  spatialBlend: 0.7
+  HRTF: 1
+  MinDistance: 2
   MaxDistance: 10
+  rolloffMode: 1
   attenuationCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
