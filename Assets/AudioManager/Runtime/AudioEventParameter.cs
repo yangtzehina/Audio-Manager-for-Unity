@@ -3,7 +3,7 @@
 
 using UnityEngine;
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Runtime
 {
     /// <summary>
     /// An AudioParameter with a response curve and audio property to apply changes to

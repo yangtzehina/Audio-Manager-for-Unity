@@ -3,7 +3,7 @@
 
 using UnityEngine;
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Runtime
 {
     /// <summary>
     /// The output connector for an AudioNode

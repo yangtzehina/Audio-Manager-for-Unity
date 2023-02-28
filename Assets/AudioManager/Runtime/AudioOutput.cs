@@ -7,7 +7,7 @@ using UnityEngine.Audio;
 using UnityEditor;
 #endif
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Runtime
 {
     /// <summary>
     /// The final node in an audio event

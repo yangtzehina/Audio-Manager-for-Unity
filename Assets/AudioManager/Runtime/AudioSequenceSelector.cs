@@ -3,7 +3,7 @@
 
 using UnityEngine;
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Runtime
 {
     /// <summary>
     /// Iterates over each of its connections when the event is played

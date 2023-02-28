@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using UnityEditor;
 #endif
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Runtime
 {
     /// <summary>
     /// The logic, settings, and audio clips that define the playback of a sound

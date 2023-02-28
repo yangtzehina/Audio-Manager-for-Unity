@@ -5,10 +5,10 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.Audio;
 using System.Collections.Generic;
-
+using Yangtze.Audio.Runtime;
 #if UNITY_EDITOR
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Editor
 {
     /// <summary>
     /// Display for visualizing the currently-playing AudioEvents when the experience is running

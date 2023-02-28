@@ -3,6 +3,7 @@
 
 using Yangtze.Audio;
 using UnityEngine;
+using Yangtze.Audio.Runtime;
 
 public class AudioManagerDemo : MonoBehaviour
 {

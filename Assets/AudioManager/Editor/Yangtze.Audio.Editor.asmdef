@@ -1,0 +1,18 @@
+{
+    "name": "Yangtze.Audio.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d6cfb52c12a633b489e971fd41275073"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

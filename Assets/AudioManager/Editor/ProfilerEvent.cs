@@ -4,7 +4,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Editor
 {
     /// <summary>
     /// A minimal version of an ActiveEvent only containing what is needed for the profiler

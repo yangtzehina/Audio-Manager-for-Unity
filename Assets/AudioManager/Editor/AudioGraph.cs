@@ -5,10 +5,11 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Audio;
 using System.Collections.Generic;
+using Yangtze.Audio.Runtime;
 
 #if UNITY_EDITOR
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Editor
 {
     public class AudioGraph : EditorWindow
     {

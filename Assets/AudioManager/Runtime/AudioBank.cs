@@ -7,12 +7,12 @@ using System.Collections.Generic;
 using UnityEditor;
 #endif
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Runtime
 {
     /// <summary>
     /// A collection of AudioEvents and AudioParameters
     /// </summary>
-    [CreateAssetMenu(menuName = "Mixed Reality Toolkit/Audio Bank")]
+    [CreateAssetMenu(menuName = "音效文件/创建Audio Bank")]
     public class AudioBank : ScriptableObject
     {
         /// <summary>

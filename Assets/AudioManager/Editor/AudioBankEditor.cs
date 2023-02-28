@@ -3,10 +3,11 @@
 
 using UnityEngine;
 using UnityEditor;
+using Yangtze.Audio.Runtime;
 
 #if UNITY_EDITOR
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Editor
 {
     /// <summary>
     /// Override inspector for quick editing in the graph
@@ -32,7 +33,7 @@ namespace Yangtze.Audio
         /// </summary>
         public override void OnInspectorGUI()
         {
-            if (GUILayout.Button("Open in Graph"))
+            if (GUILayout.Button("打开编辑面板/Open_In_Graph"))
             {
                 AudioGraph.OpenAudioGraph(this.myTarget);
             }

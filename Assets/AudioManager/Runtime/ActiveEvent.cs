@@ -3,7 +3,7 @@
 
 using UnityEngine;
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Runtime
 {
     /// <summary>
     /// The runtime event of an Audio Event that is currently playing

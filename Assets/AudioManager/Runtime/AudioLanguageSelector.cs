@@ -3,7 +3,7 @@
 
 using UnityEngine;
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Runtime
 {
     /// <summary>
     /// An AudioNode for branching an AudioEvent based on the AudioManager's language setting

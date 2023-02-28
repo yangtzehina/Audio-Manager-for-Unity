@@ -5,7 +5,7 @@ using UnityEngine;
 using System.Globalization;
 using System.Collections.Generic;
 
-namespace Yangtze.Audio
+namespace Yangtze.Audio.Runtime
 {
     /// <summary>
     /// The manager that handles the playback of AudioEvents
