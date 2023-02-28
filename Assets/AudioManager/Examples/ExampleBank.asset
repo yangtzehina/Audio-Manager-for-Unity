@@ -1121,8 +1121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Window:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 9980
+    y: 10092.5
     width: 20
     height: 20
   parentNode: {fileID: -1127362835844430790}
