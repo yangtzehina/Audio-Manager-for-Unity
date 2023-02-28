@@ -3,6 +3,9 @@
 本项目是用来处理项目的音频加载，基于unity原生的Audio方案，
 模仿wwise的一种扩展，基于事件名字来播放音效
 
+Package导入设置
+
+https://github.com/yangtzehina/Audio-Manager-for-Unity.git?path=/Assets/AudioManager
 ## ROADMAP
 TODO:
 
