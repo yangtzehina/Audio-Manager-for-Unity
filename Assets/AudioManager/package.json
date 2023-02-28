@@ -8,5 +8,12 @@
   },
   "author": {
     "name": "Yangtze_Modified"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "音效播放示例",
+      "description": "音效播放测试工程",
+      "path": "Examples"
+    }
+  ]
 }
