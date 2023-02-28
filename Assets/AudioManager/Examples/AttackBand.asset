@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8303501180550448545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d6a001556e463478b5c476e3e6195c, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  instanceLimit: 0
+  fadeIn: 0
+  fadeOut: 0
+  group: 0
+  nodes:
+  - {fileID: -1140601142359063118}
+  - {fileID: 8926404679266199426}
+  output: {fileID: -1140601142359063118}
+  parameters: []
+--- !u!114 &-1140601142359063118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb3210b711af0f4ab76fc3bff926f11, type: 3}
+  m_Name: Output
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 10000
+    y: 10000
+    width: 300
+    height: 185
+  input: {fileID: 3702234203369323394}
+  output: {fileID: 0}
+  mixerGroup: {fileID: 0}
+  MinVolume: 1
+  MaxVolume: 1
+  MinPitch: 1
+  MaxPitch: 1
+  loop: 0
+  spatialBlend: 0
+  HRTF: 0
+  MinDistance: 1
+  MaxDistance: 10
+  rolloffMode: 2
+  attenuationCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  dopplerLevel: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9d501b83c3a5d45b5deffcc726951f, type: 3}
+  m_Name: AttackBand
+  m_EditorClassIdentifier: 
+  audioEvents:
+  - {fileID: -8303501180550448545}
+  parameters: []
+--- !u!114 &3702234203369323394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a81b464ba9745e44be8820ad1c8cfd6, type: 3}
+  m_Name: OutputInput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9980
+    y: 10092.5
+    width: 20
+    height: 20
+  parentNode: {fileID: -1140601142359063118}
+  connectedNodes:
+  - {fileID: 4984637755524740942}
+  forceSingleConnection: 0
+--- !u!114 &4984637755524740942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45cf000cc6667c4e9ad0ade0cfc82a7, type: 3}
+  m_Name: Audio FileOutput
+  m_EditorClassIdentifier: 
+  Window:
+    serializedVersion: 2
+    x: 9650
+    y: 10106.5
+    width: 20
+    height: 20
+  parentNode: {fileID: 8926404679266199426}
+--- !u!114 &8926404679266199426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563994e88e1b8414890b10d6bac7a456, type: 3}
+  m_Name: Pop_04
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 9350
+    y: 10056.5
+    width: 300
+    height: 100
+  input: {fileID: 0}
+  output: {fileID: 4984637755524740942}
+  file: {fileID: 8300000, guid: a3e78a024797c8548851dd0438a4f7d1, type: 3}
+  volumeOffset: 0
+  pitchOffset: 0
