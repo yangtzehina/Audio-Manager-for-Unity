@@ -6,7 +6,7 @@
 ## ROADMAP
 TODO:
 
-扩展成Package模式
+扩展成Package模式(完成)
 
 编辑器转为UIBuilder
 
