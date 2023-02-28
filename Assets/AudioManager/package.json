@@ -11,7 +11,7 @@
   },
   "samples": [
     {
-      "displayName": "音效播放示例",
+      "displayName": "Audio_Manager_Sameple",
       "description": "音效播放测试工程",
       "path": "Examples"
     }
